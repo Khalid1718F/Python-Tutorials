@@ -9,7 +9,7 @@
 # once for each item in a list, tuple, set etc.
 # The for loop does not require an indexing variable to set beforehand.
 # Strings are iterable characters that contain a sequence of characters.
-# ---------------------------------------------------------------------------
+
 
 # The range() function is used to loop through a set of code a specified
 # number of times. It returns a a sequence of numbers,
@@ -21,7 +21,6 @@ for x in range(5):
 print()
 # Note that range(5) is not the values of 0 to 5, but the values 0 to 4.
 
-# ---------------------------------------------------------------------------
 
 # The range() function defaults to 0 as a starting value,
 # however it is possible to specify the starting value by adding a parameter:
@@ -32,7 +31,6 @@ for y in range(1, 7):
 # Skipping a line.
 print()
 
-# ---------------------------------------------------------------------------
 
 # The range() function defaults to increment the sequence by 1,
 # however it is possible to specify the increment value by adding
@@ -42,7 +40,6 @@ for z in range(3, 40, 5):
 # Skipping a line.
 print()
 
-# ---------------------------------------------------------------------------
 
 # In the code below the task is to print a string that has some message
 # a certain amount of times along with the number of times it was printed.
@@ -61,7 +58,7 @@ for i in range(5):
 # Skipping a line.
 print()
 
-# ---------------------------------------------------------------------------
+
 
 # In the range function we can add another parameter to show where
 # the value of i starts and where it ends. It starts from 1 up to but
@@ -72,7 +69,7 @@ for i in range(1, 6):
 # Skipping a line.
 print()
 
-# ---------------------------------------------------------------------------
+
 
 # Another parameter is added to the range function that specifies the increment
 # value for our for loop. It starts at 2 and is incremented by 4 until it reaches 24.
@@ -81,7 +78,7 @@ for i in range(2, 25, 4):
 # Skipping a line.
 print()
 
-# ---------------------------------------------------------------------------
+
 
 # The else keyword in a for loop specifies a block of code to be executed
 # when the loop is finished: This is demonstrated in the example below.
@@ -92,7 +89,7 @@ else:
 # Skipping a line.
 print()
 
-# ---------------------------------------------------------------------------
+
 
 # Declaring a boolean variable and assigning it the value of false.
 success = False
@@ -112,7 +109,7 @@ else:
 # Skipping a line.
 print()
 
-# ---------------------------------------------------------------------------
+
 
 # In Python we have nested loops. It is essentially a loop inside another
 # loop. The "inner loop" will be executed one time for each iteration of the "outer loop":
@@ -137,7 +134,7 @@ for c in adjective:
 # Skipping a line.
 print()
 
-# ---------------------------------------------------------------------------
+
 
 # The example below will use inner loops to display coordinates
 # This will be done using formatted strings in our print line.
@@ -147,7 +144,7 @@ for e in range(3):
 # Skipping a line.
 print()
 
-# ---------------------------------------------------------------------------
+
 
 # The range function is not the only type of object that is iterable.
 # Lists and strings are also iterable. This is demonstrated below:
@@ -157,7 +154,7 @@ for word in "Programming":
 # Skipping a line.
 print()
 
-# ---------------------------------------------------------------------------
+
 
 # We will use a while loop below to execute a statement if condition is true,
 # We first define an indexing variable named value and set it to 1.
@@ -172,7 +169,7 @@ print("Complete!")
 # Skipping a line.
 print()
 
-# ---------------------------------------------------------------------------
+
 
 # Below we have a while loop that takes user input and performs a certain
 # operation. It terminates if the user decides to enter a certain value.
@@ -189,7 +186,7 @@ while prompt.lower() != "quit":
 # Skipping a line.
 print()
 
-# ---------------------------------------------------------------------------
+
 
 # This program below displays the even numbers between 1 and 20.
 # Then it tells us how many evn numbers we have in our range.
@@ -206,4 +203,3 @@ for even in range(1, 20):
 # We then print how many even numbers we have in our range.
 print(f"We have {count} numbers.")
 
-# ---------------------------------------------------------------------------
