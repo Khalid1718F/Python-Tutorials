@@ -61,4 +61,3 @@ print("--------------------------------------------------------")
 value = 15
 if 10 <= value < 20:
     print("We have used comparison operators by chaining them.")
-    

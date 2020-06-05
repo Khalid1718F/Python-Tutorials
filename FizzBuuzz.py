@@ -9,12 +9,16 @@
 
 
 def fizz_buzz(value):
+    # Checking to see if the value is divisible by 3 & 15 first
+    # This is because if we put any of the other if we put any
+    # of the other if statements such as value % 3 or value % 5
+    # then our program would evaluate those first and return that value
     if (value % 3 == 0) and (value % 5) == 0:
         return "FizzBuzz"
     if value % 3 == 0:
         return "Fizz"
-    if value % 5==0:
-        return "Buzz" 
+    if value % 5 == 0:
+        return "Buzz"
     return value
 
 
