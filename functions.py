@@ -38,7 +38,7 @@ print()
 
 # There are 2 types of functions in Python:
 # 1) Functions who return a value.
-# 2) Functions who perform a task.\
+# 2) Functions who perform a task.
 # Another function is defined and passed the same parameters.
 
 
