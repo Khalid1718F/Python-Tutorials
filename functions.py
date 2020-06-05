@@ -89,7 +89,7 @@ def customerInfo(**info):
     print("My score is", info["credit"])
 
 
-# We call the method where it contains all the keys& values within the args.
+# We call the method where it contains all the keys & values within the args.
 customerInfo(age=28, number=12345, credit=745)
 print()
 
