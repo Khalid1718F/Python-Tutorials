@@ -1,3 +1,13 @@
+'''
+A string can be thought of as a list of characters.
+Like any other list, each character in a string has an index.
+We can select specific letters from this string using the index.
+Strings are immutable data types. Each time we perform a string
+operation on a character an entireley new string is created.
+We can use it to create other strings, but we cannot change the string itself.
+'''
+
+
 # This is a simple String variable that is stored in double quotes.
 # We can also use single quotes if we wanted but it is better to use double.
 course = "Python Programming!"
@@ -15,33 +25,54 @@ print(len(message))
 print(course[0])
 # Here we get the last character in the String by entering -1 as the index position.
 print(course[-1])
-# Here we return the first three characters in the string by indicating the index.
-# We use the first index position followed by a colon & then the third index position.
-# This means that the print line will return the characters from,
-# index 0 up to but not including index 3.
+# Here we put -2 as the index in order to get the second to last character of a string.
+print(course[-2])
+
+'''
+Here we return the first three characters in the string by indicating the index.
+We use the first index position followed by a colon & then the third index position.
+This means that the print line will return the characters from,
+index 0 up to but not including index 3. This is known as string slicing.
+'''
 print(course[0:3])
 
-# Here we demonstrate how to use escape sequences in Strings.
-# We can put a backslash character whenever we encounter a single or double quote.
-# We can also put two backslashes if we want the string to show a backslash character.
-# If we put \n then it will take us to a new line & \t is a new tab.
+'''
+We can also have open-ended selections. If we remove the first index, 
+the slice starts at the beginning of the string and if we remove the second index 
+the slice continues to the end of the string. This is another way to slice strings.
+'''
+print(course[:4])
+print(course[4:])
+
+# We can omit the first three letters of our string by using negative indices,
+# this will give us the remaining characters in the string.
+print(course[-3:])
+
+'''
+Here we demonstrate how to use escape sequences in Strings.
+We can put a backslash character whenever we encounter a single or double quote.
+We can also put two backslashes if we want the string to show a backslash character.
+If we put \n then it will take us to a new line & \t is a new tab.
+'''
 escape = "This \"is how to use, \nan escape sequence to get quotes and a new line!\""
 print(escape)
 
 # Here we demo how to use formatted Strings.
-# If we wanted to concatenate two string variables we can do this.
+# If we wanted to concatenate two string variables we can do this:
 first = "Khalid"
 last = "Ahmed"
 full = first + " " + last
 print(full)
 
-# We can use another approach to format these two strings.
-# We can set the variable full to a String that is prefixed with an 'F'
-# The 'F' which stands for format can be upper or lowercase.
-# Inside the string we put our two variables that we format in curly braces.
-# This formatted string doesn't have a constant value like the first 2 strings.
-# It is actually an expression that will be evaluated at run-time.
-# You can put any valid expression in between the curly braces.
+'''
+We can use another approach to format these two strings.
+We can set the variable full to a String that is prefixed with an 'F'
+The 'F' which stands for format can be upper or lowercase.
+Inside the string we put our two variables that we format in curly braces.
+This formatted string doesn't have a constant value like the first 2 strings.
+It is actually an expression that will be evaluated at run-time.
+You can put any valid expression in between the curly braces.
+'''
 full = F"{first} {last}"
 print(full)
 
