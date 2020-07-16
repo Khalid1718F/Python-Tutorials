@@ -1,13 +1,16 @@
-# Here we import the math module in order to work with numbers more.
-# A module is a separate file with some python code.
-# The math module comes with lots of math functions to work with numbers.
-# In this program math is an object that access the methods of the module.
+'''
+Here we import the math module in order to work with numbers more.
+A module is a separate file with some python code.
+The math module comes with lots of math functions to work with numbers.
+In this program math is an object that access the methods of the module.
+'''
 import math
-
-# In python there are 3 types of numbers.
-# We have integers, floats, and complex numbers.
-# A complex number in math takes the form a + bi.
-# In programming we replace the 'i' with a 'j'.
+'''
+In python there are 3 types of numbers.
+We have integers, floats, and complex numbers.
+A complex number in math takes the form a + bi.
+In programming we replace the 'i' with a 'j'.
+'''
 x = 1
 y = 1.3
 z = 1 + 3j
