@@ -20,15 +20,17 @@ print("--------------------------------------------------------")
 # Below is an example of a ternary operator.
 # We declare a variable that we will use for our conditional statement.
 age = 21
-# Another variable is declared and is assigned a String value.
-# After the message variable we have an if statement followed
-# by a boolean expression. If the expression evaluates to true,
-# then the message variable will be assigned the first value.
-# Then we have an else statement followed by a String value.
-# If the statement is false then the message variable will be
-# assigned the value of the second String value.
+'''
+Another variable is declared and is assigned a String value.
+After the message variable we have an if statement followed
+by a boolean expression. If the expression evaluates to true,
+then the message variable will be assigned the first value.
+Then we have an else statement followed by a String value.
+If the statement is false then the message variable will be
+assigned the value of the second String value.
 message = "Eligible" if age >= 21 else "Ineligible"
-# The message variable is now printed based on the comparison.
+The message variable is now printed based on the comparison.
+'''
 print(message)
 print("--------------------------------------------------------")
 
