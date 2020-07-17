@@ -76,9 +76,11 @@ You can put any valid expression in between the curly braces.
 full = F"{first} {last}"
 print(full)
 
-# Here we will demo how to use String Methods in order to manipulate strings.
-# When we use the dot operator '.' after our string variable,
-# We get access to all the string methods of that variable.
+'''
+Here we will demo how to use String Methods in order to manipulate strings.
+When we use the dot operator '.' after our string variable,
+We get access to all the string methods of that variable.
+'''
 print(course.upper())
 print(course.lower())
 print(course.title())
