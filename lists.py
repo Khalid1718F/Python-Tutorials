@@ -17,7 +17,6 @@ You can even create a list that is composed of seversal different Data Types.
 
 '''
 
-
 # Lists are indexed and have a length property that can count the number of items within them.
 # We can access an item in a list by refering to its index position, demonstrated below:
 fruit_list = ['apple', 'banana', 'cherry', 'orange',
@@ -86,3 +85,14 @@ del fruit_list[5]  # Deletes a specific item at a specific index.
 #       The clear() method is demonstrated here below in the next line:
 fruit_list.clear()
 print(fruit_list)  # Prints an empty list since it has been cleared.
+
+'''
+You cannot copy a list simply by typing list2 = list1, because: 
+list2 will only be a reference to list1, 
+and changes made in list1 will automatically also be made in list2.
+There are ways to make a copy, one way is to use the built-in List method copy().
+The method is demonstrated in the example below:
+'''
+numbers_list = [1, 2, 3, 4, 5]
+other_list = numbers_list.copy()
+print(other_list)
