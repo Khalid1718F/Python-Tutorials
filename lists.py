@@ -10,9 +10,10 @@ When choosing a collection type, it is useful to understand the properties of th
 Choosing the right type for a particular data set could mean retention of meaning, 
 and, it could mean an increase in efficiency or security.
 
-A list is a collection which is ordered and changeable. In Python lists are written with square brackets.
+A list is a collection which is ordered and changeable. In Python lists are written with [].
 They are an aggregate data type which means that they are composed of other data types. 
-for example you can have a list of strings, ints, floats, booleans, other list, and mixed types. 
+for example you can have a list of strings, ints, floats, booleans, and other list.
+You can even create a list that is composed of seversal different Data Types.  
 
 '''
 
@@ -71,4 +72,17 @@ This is possible through several methods.
 '''
 fruit_list.append('cantelope')  # 1) Adds an item to the end of a list.
 fruit_list.insert(3, 'blueberry')  # 2) Adds an item to a specific index.
-print(fruit_list)  # prints the new fruit list after changes have been made.
+print(fruit_list)  # Prints the new fruit list after changes have been made.
+
+'''
+There are also several different methods to remove certain items from a given list.
+'''
+fruit_list.remove('banana')  # Removes a specified item from a given list.
+# Removes the specified index, (or the last item if index is not specified):
+fruit_list.pop()
+del fruit_list[5]  # Deletes a specific item at a specific index.
+# NOTE: The del keyword can also delete the list completely.
+#       The clear() method on  the other hand empties the list.
+#       The clear() method is demonstrated here below in the next line:
+fruit_list.clear()
+print(fruit_list)  # Prints an empty list since it has been cleared.
